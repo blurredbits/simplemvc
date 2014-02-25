@@ -6,10 +6,10 @@ require 'simplemvc/version'
 Gem::Specification.new do |spec|
   spec.name          = "simplemvc"
   spec.version       = Simplemvc::VERSION
-  spec.authors       = ["Blurredbits"]
+  spec.authors       = ["Mark Morris"]
   spec.email         = ["mmorris00@mac.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Simple MVC}
+  spec.description   = %q{Simple MVC}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+
+  spec.add_runtime_dependency "rack"
 end
